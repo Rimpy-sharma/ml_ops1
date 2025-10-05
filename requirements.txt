@@ -1,0 +1,2 @@
+PyMuPDF==1.22.5
+# If you prefer pure Python PDF parsing, you could use pdfminer.six, but PyMuPDF is faster and extracts images.

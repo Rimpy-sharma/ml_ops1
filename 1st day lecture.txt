@@ -1,0 +1,19 @@
+							 1st day lecture
+
+ml ops commands
+
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "rimpy.wss@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+chmod 600 ~/.ssh/id_ed25519
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPp/EUsp0fM8BzYrYMvuuN+XBbVUO93xIMn1YGWFPZHw  (ssh key)
+
+
+ssh -T git@github.com
+mkdir mlops
+cd mlops
+git init
+nano hello.py
+git add .hello.py
+git commit -m "demo"
